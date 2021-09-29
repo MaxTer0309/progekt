@@ -1,0 +1,511 @@
+@media (max-width: 1200px){
+   .header-menu{
+      width: 90%;
+   }
+   
+   .wrapper-ikonce{
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      width: 70px;
+   }
+
+   hr{
+      display: none;
+   }
+
+   .kont-inf{
+      font-size: 14px;
+   }
+
+   .skala{
+      display: none;
+   }
+
+   .nomer{
+      margin-left: 35%;
+      margin-top: 50px;
+   }
+
+   .header-center{
+      display: block;
+   }
+
+   .div-teatr{
+      margin-top: 150px;
+      margin-left: 100px;
+   }
+
+   .teatr-img{
+      display: none;
+   }
+
+   .text-teatr{
+      justify-content: center;
+   }
+
+   .cifry{
+      margin-left: 50px;
+   }
+
+   .o-teatre{
+      margin-top: 100px;
+      height: 360px;
+   }
+
+   .galerey{
+      margin-right: 50px;
+   }
+
+   h2{
+      font-size: 40px;
+   }
+
+   .pt{
+      overflow: hidden;
+   }
+
+   .kt{
+      max-width: 1000px;
+   }
+
+   footer{
+      width: 800px;
+   }
+}
+
+@media (max-width:1100px){
+   .div-teatr{
+      margin-left: 150px;
+   }
+}
+
+@media (max-width:1000px){
+   .div-teatr h1{
+      font-size: 40px;
+   }
+
+   .div-teatr{
+      height: 250px;
+   }
+
+   .div-teatr button{
+      width: 140px;
+      font-size: 16px;
+   }
+
+   .daty{
+      font-size: 50px;
+   }
+
+   .texty{
+      font-size: 30px;
+   }
+
+   .pt{
+      width: 800px;
+   }
+
+   .kt{
+      width: 800px;
+   }
+
+   .kont{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 800px;
+      height: 80px;
+      margin-top: 220px;
+   }
+
+   .nomera, .inform{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   footer{
+      margin-top: 150px;
+   }
+}
+
+@media (max-width: 900px){
+   .header-div{
+      display: block;
+   }
+
+   .wrapper-ikonce{
+      margin-left: 15px;
+      margin-top: 285px;
+   }
+
+   .kont-inf{
+      margin-top: 100px;
+      left: -100px;
+      position: absolute;
+   }
+
+   .partnery{
+      position: absolute;
+      width: 100%;
+   }
+
+   .pt{
+      margin-top: 700px;
+   }
+
+   .daty{
+      margin-left: 100px;
+   }
+}
+
+@media(max-width:800px){
+   .kont-inf{
+      font-size: 0;
+   }
+
+   .header-menu{
+      display: none;
+   }
+
+   .nomer{
+      margin-top: 0px;
+      margin-left: 0;
+      right: 50px;
+   }
+
+   .header-menu1{
+      display: block;
+   }
+
+   .header-div{
+      display: none;
+      width: 250px;
+      position: fixed;
+   }
+
+   .wrapper-ikonce{
+      position: absolute;
+      left: 80px;
+      top: 280px;
+      display: grid;
+      grid-template-columns: repeat(2, 70px);
+      grid-template-rows: repeat(2, 70px);
+   }
+
+   .but{
+      display: block;
+      position: fixed;
+   }
+
+   .close{
+      display: block;
+   }
+
+   .text-teatr{
+      display: block;
+      margin-top: 50px;
+   }
+
+   .luch-teatr{
+      text-align: center;
+      margin: auto;
+   }
+
+   .cifry{
+      margin-top: 50px;
+   }
+
+   .cifry h3{
+      width: 700px;
+      text-align: center;
+      margin: auto;
+   }
+
+   .imgg{
+      margin-top: 50px;
+      width: 680px;
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .postanovki{
+      margin-top: 400px;
+   }
+
+   .postanovki h2{
+      position: absolute;
+      margin-top: -150px;
+   }
+
+   .galerey{
+      margin-top: 600px;
+   }
+
+   .partnery{
+      margin-top: 0px;
+   }
+
+   .texty{
+      font-size: 24px;
+      width: 450px;
+   }
+
+   .pt{
+      margin-top: 600px;
+   }
+
+   .gaz{
+      justify-content: center;
+      margin-left: 50px;
+      width: 700px;
+      overflow: hidden;
+   }
+
+   .gazprom, .gazprom1{
+      width: 1100px;
+   }
+
+   .soob{
+      margin: auto;
+      flex-direction: column;
+   }
+
+   .sms{
+      margin: auto;
+   }
+   
+   .inc{
+      width: 700px;
+   }
+
+   .inc input{
+      width: 300px;
+   }
+
+   .sobsh{
+      margin-top: 30px;
+   }
+
+   .sobsh input{
+      width: 700px;
+   }
+
+   .otpr{
+      width: 700px;
+      flex-direction: column-reverse;
+      margin-top: 30px;
+      margin-left: 15px;
+   }
+
+   .knopka{
+      margin: auto;
+   }
+
+   .text{
+      margin: auto;
+      margin-top: 20px;
+      text-align: center;
+   }
+
+   .kont{
+      margin-left: 40px;
+      margin-top: 450px;
+      width: 700px;
+   }
+
+   footer{
+      margin-top: 400px;
+      width: 700px;
+   }
+}
+
+@media(max-width:700px){
+   .cifry{
+      margin-left: 0px;
+   }
+
+   .daty{
+      margin-left: 50px;
+   }
+
+   .pt{
+      width: 600px;
+   }
+
+   .kt{
+      width: 600px;
+   }
+
+   .inc{
+      width: 600px;
+   }
+
+   .inc input{
+      width: 250px;
+   }
+
+   .sobsh{
+      width: 600px;
+   }
+
+   .sobsh input{
+      width: 600px;
+   }
+
+   .sms{
+      width: 600px;
+   }
+
+   .otpr{
+      width: 600px;
+   }
+
+   .kont{
+      margin-left: 0;
+      width: 600px;
+      font-size: 14px;
+   }
+
+   footer{
+      width: 600px;
+   }
+}
+
+@media(max-width:600px){
+   .header-center{
+      margin-left: -125px;
+   }
+
+   .cifry{
+      margin-left: -50px;
+   }
+
+   .imgg{
+      width: 500px;
+      margin-left: 100px;
+   }
+
+   .postanovki h2{
+      margin-left: -100px;
+   }
+
+   .zvezdy{
+      margin-left: 20px;
+   }
+
+   .texty{
+      font-size: 20px;
+      width: 300px;
+   }
+
+   .sms{
+      width: 500px;
+   }
+
+   .soob{
+      width: 500px;
+   }
+
+   .inc{
+      width: 470px;
+   }
+
+   .inc input{
+      width: 200px;
+   }
+
+   .sobsh input{
+      width: 470px;
+   }
+
+   .otpr{
+      width: 470px;
+   }
+
+   .kont{
+      width: 470px;
+      left: 60px;
+   }
+
+   footer{
+      width: 470px;
+   }
+}
+
+@media(max-width:500px){
+   .header-center p{
+      width: 400px;
+   }
+
+   .header-center button{
+      margin-top: 10px;
+   }
+
+   .cifry{
+      margin-left: -100px;
+   }
+
+   .imgg{
+      width: 400px;
+      margin-left: 150px;
+   }
+
+   h2{
+      font-size: 30px;
+   }
+
+   .postanovki h2{
+      margin-left: -80px;
+   }
+
+   .pt{
+      width: 400px;
+   }
+
+   .gaz{
+      margin-left: 0px;
+   }
+
+   .kt{
+      width: 400px;
+   }
+
+   .sms{
+      width: 400px;
+   }
+
+   .soob{
+      width: 400px;
+   }
+
+   .inc{
+      width: 400px;
+   }
+
+   .inc input{
+      width: 180px;
+   }
+
+   .sobsh input{
+      width: 400px;
+   }
+
+   .otpr{
+      width: 400px;
+   }
+
+   .kont{
+      width: 400px;
+      font-size: 12px;
+   }
+
+   footer{
+      width: 400px;
+   }
+
+   .text-footer{
+      font-size: 10px;
+   }
+}
